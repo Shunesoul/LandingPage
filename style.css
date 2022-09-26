@@ -5,11 +5,12 @@
   
 
   .flex-container div {
-    background: peachpuff;
+    background: #1f2937;
     padding: 20px;
     flex: 1 1 auto;
     text-align: left;
     border: solid red;
+    color: white;
   }
 .links {
     display: flex;

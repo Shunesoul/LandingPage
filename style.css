@@ -8,5 +8,18 @@
     background: peachpuff;
     padding: 20px;
     flex: 1 1 auto;
-    text-align: center;
+    text-align: left;
+    border: solid red;
   }
+.links {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex: 1 1 auto;
+    text-align: center;
+    border: solid red;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

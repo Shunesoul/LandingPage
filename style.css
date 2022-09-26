@@ -1,6 +1,9 @@
+* {background-color: black} 
+
 .flex-container {
     display: flex;
     flex-direction: row;
+    size: 120%;
 }
   
 
@@ -9,7 +12,7 @@
     padding: 20px;
     flex: 1 1 auto;
     text-align: left;
-    border: solid red;
+    /* border: solid red */;
     color: white;
   }
 .links {
@@ -18,7 +21,7 @@
     padding: 20px;
     flex: 1 1 auto;
     text-align: center;
-    border: solid red;
+    /* border: solid red */;
 }
 .flex-column {
     display: flex;
@@ -30,4 +33,30 @@
 }
 .subt-text {
     font-size: 18px;
+}
+.image-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.one {
+    font-weight: bolder;
+    font-size: 24px;
+} 
+.two {
+    font-size: 18px;
+}
+.flex-container-body div {
+    padding: 20px;
+    flex: 1 1 auto;
+    text-align: left;
+    /* border: solid red */;
+    color: black;  }
+  .flex-container-body {
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    background-color: #3882f6;
+    color: white;
 }
